@@ -6,3 +6,7 @@ def show_menu():
     print("3. Exit")
 
 show_menu()
+def view_tasks():
+    for i, task in enumerate(tasks, 1):
+        print(i, task)
+
