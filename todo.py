@@ -6,3 +6,8 @@ def show_menu():
     print("3. Exit")
 
 show_menu()
+
+def add_task():
+    task = input("Enter task: ")
+    tasks.append(task)
+    print("Task added")
