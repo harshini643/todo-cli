@@ -6,7 +6,8 @@ def show_menu():
     print("3. Exit")
 
 show_menu()
-# BUG: task is not added to the list
+tasks=[]
 def add_task(task):
+tasks.append(task)
     print("Task added:", task)
 
